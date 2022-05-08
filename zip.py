@@ -1,6 +1,6 @@
 import os, zipfile
-input = 'input value'
-output = 'output '
+input = 'input value' # Path of Zip files directory  
+output = 'output ' # Path of output directory
 entries = os.listdir(input)
 
 for item in entries:
